@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2275076235/display_1500/stock-vector-abstract-white-and-gray-color-modern-design-stripes-background-with-geometric-round-shape-vector-2275076235.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.calculator-container {
+    display: flex;
+    gap: 20px;
+}
+
+.calculator, .bmi-calculator {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.display input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    background: #e0e0e0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #d0d0d0;
+}
+
+.bmi-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bmi-calculator input {
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+}
+
+#bmi-result {
+    margin-top: 10px;
+    font-size: 18px;
+}
